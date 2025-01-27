@@ -26,7 +26,7 @@ function handleChange(inputIdentifier, newValue) {
     <>
     <Header/>
     <UserInput userInput={userInput} onChange={handleChange}/>
-    {!inputIsValid && <p className="center">Please entre a duration greater than zero</p>}
+    {!inputIsValid && <p className="center">Entre a duration greater than zero</p>}
     {inputIsValid && <Results userInput={userInput}/>}
     </>
 )}
